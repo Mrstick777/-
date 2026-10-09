@@ -1,13 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пошук ігор</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
+
+    <h1>🎮 Пошук ігор</h1>
+    <p>Знайди гру, в яку хочеш пограти!</p>
+
+    <div class="search">
+        <input type="text" id="gameName" placeholder="Введи назву гри...">
+        <button onclick="searchGames()">Знайти</button>
+    </div>
+
+    <div id="games"></div>
+
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,54 @@
+body {
+    background-color: #151515;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #a970ff;
+}
+
+.search {
+    margin: 25px;
+}
+
+input {
+    padding: 12px;
+    width: 220px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d28d9;
+}
+
+#games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.game {
+    background-color: #252525;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.game img {
+    width: 100%;
+    border-radius: 5px;
+}
